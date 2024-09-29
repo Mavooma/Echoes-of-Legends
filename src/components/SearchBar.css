@@ -1,0 +1,27 @@
+.search-bar {
+  position: relative; /* Allow positioning of child elements */
+  margin: 20px auto;
+  max-width: 400px; /* Limit width */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center vertically */
+}
+
+.search-icon {
+  width: 20px; /* Set width for the icon */
+  height: 20px; /* Set height for the icon */
+  color: #6c757d; /* Gray color for visibility */
+  margin-left: -30px; /* Move icon into the input field */
+  pointer-events: none; /* Prevent it from interfering with clicks */
+}
+
+.search-bar .form-control {
+  padding: 10px 40px; /* Padding to allow space for the icon */
+  border-radius: 5px;
+  border: 1px solid #ced4da; /* Light border */
+  width: 100%; /* Full width */
+}
+
+.search-bar .form-control:focus {
+  border-color: #007bff; /* Bootstrap primary color */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus shadow */
+}

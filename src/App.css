@@ -1,0 +1,53 @@
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+
+.navbar .btn {
+  margin-left: 10px; /* Adjust margin to fit your design */
+  color: #6c757d; /* Icon color */
+}
+
+.navbar .btn:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Default light theme */
+body.light {
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text */
+}
+
+/* Dark theme styles */
+body.dark {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+/* You may need to adjust other elements to fit the theme */
+.navbar {
+  background-color: inherit; /* Allow navbar background to inherit body color */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000; /* Light theme link color */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; /* Dark theme link color */
+}

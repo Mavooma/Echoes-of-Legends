@@ -1,0 +1,92 @@
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Light background */
+  padding: 1rem 2rem;
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #343a40 !important; /* Darker text for brand */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border from toggle button */
+}
+
+.navbar-toggler-icon {
+  color: #343a40; /* Darker color for icon */
+}
+
+.navbar-nav {
+  margin-left: auto; /* Aligns the nav links to the right */
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #6c757d !important; /* Light gray text */
+  padding: 8px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for navbar links */
+.nav-link:hover {
+  color: #ffffff !important; /* White text on hover */
+  background-color: #007bff; /* Bootstrap primary color on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Styling for active link */
+.nav-link.active {
+  font-weight: bold;
+  color: #007bff !important; /* Primary color for active link */
+}
+
+/* Navbar.css */
+
+.navbar .btn {
+  margin-left: 10px; /* Adjust margin to fit your design */
+  color: #6c757d; /* Icon color */
+}
+
+.navbar .btn:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.navbar .btn.theme-toggle {
+  margin-left: 10px; /* Space between items */
+  color: #6c757d; /* Default icon color */
+}
+
+.navbar .btn.theme-toggle:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.navbar .btn i {
+  font-size: 20px; /* Adjust icon size */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .navbar .btn.theme-toggle {
+    font-size: 16px; /* Smaller icon on mobile */
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-left: 0; /* Aligns nav links to the center on smaller screens */
+  }
+
+  .nav-item {
+    margin-left: 0;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+}

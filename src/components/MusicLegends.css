@@ -1,0 +1,36 @@
+.legends-container {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.legends-card {
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.legends-card:hover {
+  transform: scale(1.05);
+}
+
+.legends-card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.legends-card-title {
+  font-size: 1.5rem;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.legends-card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .legends-card img {
+    max-height: 150px;
+  }
+}

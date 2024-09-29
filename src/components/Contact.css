@@ -1,0 +1,67 @@
+/* Contact.css */
+
+/* Basic styling for the contact section */
+.contact-section {
+  background-color: #f8f9fa; /* Light background */
+  padding: 40px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #343a40; /* Darker title color */
+}
+
+.contact-text {
+  font-size: 1.2rem;
+  color: #6c757d; /* Gray text */
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #343a40;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Social media links */
+.social-media {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-media li {
+  margin: 0 15px;
+}
+
+.social-media a {
+  font-size: 1.1rem;
+  color: #007bff;
+}
+
+.social-media a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
